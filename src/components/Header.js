@@ -8,6 +8,17 @@ const Header = () => {
                     <h1>Home</h1>
                 </Link>
             </div>
+            <div>
+                <Link to="/about">
+                    <p>about</p>
+                </Link>
+                <Link to="/portfolio">
+                    <p>portfolio</p>
+                </Link>
+                <Link to="/blog">
+                    <p>blog</p>
+                </Link>
+            </div>
         </div>
     )
 }
